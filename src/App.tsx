@@ -394,7 +394,7 @@ function Hero({ lang }: { lang: 'en' | 'zh' }) {
           className="space-y-6"
         >
           <div className="relative aspect-video bg-slate-200 rounded-xl overflow-hidden shadow-lg group border-4 border-white">
-            <img src="https://i.ibb.co/FLfFTng9/NUS.jpg" alt="Visiting study in Southeast Asia" className="w-full h-full object-cover object-center" />
+            <img src="https://raw.githubusercontent.com/lzllzllzllzllzl/my-images/main/IMG20240407143820_20241018214408.JPG" alt="Profile" className="w-full h-full object-cover object-center" referrerPolicy="no-referrer" />
             <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
           </div>
           <div className="space-y-4 text-sm md:text-base text-slate-600">
