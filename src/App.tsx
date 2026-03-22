@@ -571,7 +571,7 @@ function NotableWork({ lang }: { lang: 'en' | 'zh' }) {
               viewport={{ once: true }}
               className="grid md:grid-cols-2 gap-12 items-center"
             >
-              <div className={`rounded-xl overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] relative ${work.reverse ? 'md:order-2' : ''}`}>
+              <div className="rounded-xl overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] relative">
                 {work.iframeUrl ? (
                   <iframe 
                     src={work.iframeUrl} 
@@ -584,7 +584,7 @@ function NotableWork({ lang }: { lang: 'en' | 'zh' }) {
                   <img src={work.image} alt={work.title} className="w-full h-full object-cover object-center" />
                 )}
               </div>
-              <div className={`space-y-6 ${work.reverse ? 'md:order-1' : ''}`}>
+              <div className="space-y-6">
                 <div>
                   <h3 className="text-3xl font-bold mb-2">{work.title}</h3>
                   <p className="text-primary font-semibold uppercase tracking-wider text-sm">{work.subtitle}</p>
