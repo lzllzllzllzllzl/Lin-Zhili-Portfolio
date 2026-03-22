@@ -72,6 +72,25 @@ const content = {
       title: "Notable Work",
       core: [
         {
+          title: "LinkMind",
+          subtitle: "Cross-platform Content Collection & Knowledge Management",
+          content: (
+            <>
+              <p><strong>Overview:</strong> LinkMind is an independent cross-platform content collection and knowledge management tool. Just paste any web link (e.g., Zhihu, Bilibili, Official Accounts), and the system automatically extracts content, generates summaries, outlines, and keywords using AI, and securely syncs it to your personal knowledge base.</p>
+              <p><strong>Key Features:</strong> Smart Parsing, Knowledge Graph Prototype, Context-Aware Q&A, Responsive Design.</p>
+              <p><strong>Tech Stack:</strong> Next.js 16 + React 19 + Supabase + Doubao API.</p>
+              <p><strong>Deployment:</strong> Vercel CI/CD, End-to-end encrypted sync.</p>
+              <p><em>Born from my pain of "information overload but knowledge scarcity"—I hope it helps you turn internet noise into your own cognitive assets.</em></p>
+            </>
+          ),
+          links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/LinkMind" },
+            { text: "Vercel", icon: <ExternalLink className="w-4 h-4" />, url: "https://link-mind-delta.vercel.app/", outline: true }
+          ],
+          reverse: false,
+          iframeUrl: "https://link-mind-delta.vercel.app/"
+        },
+        {
           title: "Product Optimization Agent",
           subtitle: "JD RETAIL AI INNOVATION 1ST PRIZE",
           image: "https://i.ibb.co/30Z0Z5y/jd-ops.png",
@@ -234,6 +253,25 @@ const content = {
     works: {
       title: "核心作品",
       core: [
+        {
+          title: "LinkMind",
+          subtitle: "跨平台内容收藏与知识整理工具",
+          content: (
+            <>
+              <p><strong>核心功能：</strong> LinkMind 是我独立开发的一款跨平台内容收藏与知识整理工具。只需粘贴任意网页链接（如知乎、B站、公众号等），系统便会通过 AI 自动提取正文、生成摘要、提炼大纲与关键词，并将内容安全同步至你的个人知识库。保存后，你还能基于原文向 AI 追问细节——真正实现“读得快，记得牢，问得深”。</p>
+              <p><strong>技术栈：</strong> Next.js 16 + React 19 + Supabase + 豆包 API</p>
+              <p><strong>核心能力：</strong> 智能解析｜知识图谱雏形｜上下文感知问答｜全端响应式</p>
+              <p><strong>部署：</strong> Vercel 全自动 CI/CD，数据端到端加密同步</p>
+              <p><em>这个项目源于我对“信息过载但知识匮乏”的切肤之痛——希望它也能帮你把互联网的噪音，变成自己的认知资产。</em></p>
+            </>
+          ),
+          links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/LinkMind" },
+            { text: "Vercel", icon: <ExternalLink className="w-4 h-4" />, url: "https://link-mind-delta.vercel.app/", outline: true }
+          ],
+          reverse: false,
+          iframeUrl: "https://link-mind-delta.vercel.app/"
+        },
         {
           title: "商品优化智能体",
           subtitle: "京东零售AI提效大赛一等奖",
