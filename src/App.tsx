@@ -85,7 +85,7 @@ const content = {
           ),
           links: [
             { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/LinkMind" },
-            { text: "Vercel", icon: <ExternalLink className="w-4 h-4" />, url: "https://link-mind-delta.vercel.app/", outline: true }
+            { text: "Live Demo", icon: <ExternalLink className="w-4 h-4" />, url: "https://link-mind-delta.vercel.app/", outline: true }
           ],
           reverse: false,
           iframeUrl: "https://link-mind-delta.vercel.app/"
@@ -207,7 +207,7 @@ const content = {
       greeting: "你好，我是",
       location: "香港 / 北京",
       description: "香港理工大学人工智能与大数据专业研究生。专注于数据驱动与智能算法系统设计、用户增长策略及LTV优化，在头部科技公司拥有丰富的落地经验与成果。",
-      tags: ["人工智能", "大数据", "增长策略", "产品运营"],
+      tags: ["数据驱动", "战略思维", "终身学习", "跨界创新"],
       photoDesc: "热爱学术与旅行。这张照片记录了我在东南亚访学时的难忘瞬间。"
     },
     strengths: {
@@ -267,7 +267,7 @@ const content = {
           ),
           links: [
             { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/LinkMind" },
-            { text: "Vercel", icon: <ExternalLink className="w-4 h-4" />, url: "https://link-mind-delta.vercel.app/", outline: true }
+            { text: "在线演示", icon: <ExternalLink className="w-4 h-4" />, url: "https://link-mind-delta.vercel.app/", outline: true }
           ],
           reverse: false,
           iframeUrl: "https://link-mind-delta.vercel.app/"
@@ -440,11 +440,6 @@ function Hero({ lang }: { lang: 'en' | 'zh' }) {
               <span className="text-xl">🌍</span>
               <span>{t.photoDesc}</span>
             </p>
-            <div className="flex flex-wrap gap-4 text-xs font-bold text-slate-400 uppercase tracking-widest">
-              {t.tags.map((tag, i) => (
-                <span key={i} className="bg-slate-900 text-white px-3 py-1 rounded-sm">{tag}</span>
-              ))}
-            </div>
           </div>
         </motion.div>
         
