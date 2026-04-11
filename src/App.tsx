@@ -69,7 +69,7 @@ const content = {
       ]
     },
     works: {
-      title: "Notable Work",
+      title: "Core AI Products",
       core: [
         {
           title: "LinkMind",
@@ -154,6 +154,26 @@ const content = {
           ],
           reverse: false,
           iframeUrl: "https://aero-vision-gamma.vercel.app/"
+        }
+      ],
+      n8nTitle: "AI Toolflows",
+      n8nWorkflows: [
+        {
+          title: "AI News Daily Collection + Feishu Push — n8n Automation Workflow",
+          subtitle: "AUTOMATION & WORKFLOW",
+          image: "https://raw.githubusercontent.com/lzllzllzllzllzl/my-images/main/image_522561197078825.png",
+          content: (
+            <>
+              <p><strong>Overview:</strong> An automated workflow that collects daily AI news and pushes summaries to Feishu using n8n.</p>
+              <p><strong>Key Features:</strong> Automated news aggregation, AI-powered summarization, Feishu integration.</p>
+              <p><strong>Tech Stack:</strong> n8n, Feishu API, Doubao API.</p>
+              <p><strong>Tutorial:</strong> Covers setup, workflow architecture, node configuration, and troubleshooting.</p>
+            </>
+          ),
+          links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/AI--n8n-" }
+          ],
+          reverse: false
         }
       ],
       interactiveTitle: "Interactive AI Experiments",
@@ -251,7 +271,7 @@ const content = {
       ]
     },
     works: {
-      title: "核心作品",
+      title: "核心AI产品",
       core: [
         {
           title: "LinkMind",
@@ -336,6 +356,26 @@ const content = {
           ],
           reverse: false,
           iframeUrl: "https://aero-vision-gamma.vercel.app/"
+        }
+      ],
+      n8nTitle: "AI工具流",
+      n8nWorkflows: [
+        {
+          title: "AI新闻每日采集 + 飞书推送 — n8n 自动化工作流",
+          subtitle: "自动化与工作流",
+          image: "https://raw.githubusercontent.com/lzllzllzllzllzl/my-images/main/image_522561197078825.png",
+          content: (
+            <>
+              <p><strong>项目概述：</strong> 基于 n8n 的自动化工作流，实现 AI 新闻每日自动采集、AI 摘要生成并推送至飞书。</p>
+              <p><strong>核心功能：</strong> 自动化新闻聚合、AI 智能摘要、飞书深度集成。</p>
+              <p><strong>技术栈：</strong> n8n, 飞书 API, 豆包 API。</p>
+              <p><strong>教程内容：</strong> 涵盖环境准备、工作流架构、手把手配置、节点详解及常见问题解决。</p>
+            </>
+          ),
+          links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/AI--n8n-" }
+          ],
+          reverse: false
         }
       ],
       interactiveTitle: "互动AI实验",
@@ -608,6 +648,49 @@ function NotableWork({ lang }: { lang: 'en' | 'zh' }) {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        {/* N8N Workflows */}
+        <div className="mb-32">
+          <h3 className="text-3xl md:text-4xl font-bold mb-16 text-center">{t.n8nTitle}</h3>
+          <div className="space-y-32">
+            {t.n8nWorkflows.map((work, i) => (
+              <motion.div 
+                key={i}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="grid md:grid-cols-2 gap-12 items-center"
+              >
+                <div className="rounded-xl overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] relative">
+                  <img src={work.image} alt={work.title} className="w-full h-full object-cover object-center" />
+                </div>
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-3xl font-bold mb-2">{work.title}</h3>
+                    <p className="text-primary font-semibold uppercase tracking-wider text-sm">{work.subtitle}</p>
+                  </div>
+                  <div className="space-y-4 text-slate-600">
+                    {work.content}
+                  </div>
+                  <div className="flex gap-4 pt-4">
+                    {work.links.map((link, j) => (
+                      <a 
+                        key={j} 
+                        href={link.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className={`flex items-center gap-2 px-6 py-2 rounded-full font-bold text-sm transition-all bg-slate-900 text-white hover:opacity-80`}
+                      >
+                        {link.icon}
+                        {link.text}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
 
         {/* Interactive AI Experiments Grid */}
