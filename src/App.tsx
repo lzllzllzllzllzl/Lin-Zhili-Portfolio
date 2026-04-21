@@ -46,11 +46,18 @@ const content = {
       title: "Experience",
       items: [
         {
+          title: "Strategy Operations Intern (Keemart Overseas)",
+          company: "Meituan",
+          date: "2026.04 — PRESENT",
+          description: "Responsible for visual optimization and scenario-based operations for Keemart's overseas business. Led A/B testing and performance analysis for main product images and scene imagery, continuously iterating on assets based on data feedback to improve CTR and conversion perception. Assisted in defining visual standards for categories and collaborated with design and product teams to implement optimization solutions, supporting business growth goals through refined operations.",
+          active: true,
+        },
+        {
           title: "Assistant Procurement (Bathroom KA Group)",
           company: "JD.com",
-          date: "2026.01 — PRESENT",
+          date: "2026.01 — 2026.04",
           description: "Developed 'Product Optimization Agent' (JD Retail AI Innovation 1st Prize) for consumer LTV enhancement. Implemented AI-driven A/B testing for scene-based main images, achieving +15-30% CTR, +163% traffic, and +200% conversion. Formulated national subsidy risk control strategies (100% compliance) and orchestrated cross-brand virtual bundles, driving ATV over 6000 RMB and boosting platform penetration.",
-          active: true,
+          active: false,
         },
         {
           title: "Strategy Operations Intern (Partner Growth)",
@@ -248,11 +255,18 @@ const content = {
       title: "工作经历",
       items: [
         {
+          title: "策略运营实习生 (海外Keemart)",
+          company: "美团",
+          date: "2026.04 — 至今",
+          description: "负责海外 Keemart 业务的商品视觉优化与场景化运营。主导商品主图、场景图的 A/B 测试与效果分析，通过数据反馈持续迭代素材，提升点击率与转化感知。协助制定品类视觉规范，并协同设计、商品部门推动优化方案落地，以精细化运营支持业务增长目标。",
+          active: true,
+        },
+        {
           title: "采销助理 (卫浴KA组)",
           company: "京东集团",
-          date: "2026.01 — 至今",
+          date: "2026.01 — 2026.04",
           description: "开发“商品优化智能体”（获京东零售AI提效大赛一等奖），提升消费者LTV。实施AI驱动的场景化主图A/B测试，实现点击率+15-30%，流量+163%，转化率+200%。制定国补风控策略（100%合规），策划跨品牌虚拟组套，推动客单价突破6000元，提升平台渗透率。",
-          active: true,
+          active: false,
         },
         {
           title: "策略运营实习生 (合伙人增长)",
