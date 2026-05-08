@@ -60,7 +60,7 @@ const content = {
           active: false,
         },
         {
-          title: "Strategy Operations Intern (Partner Growth)",
+          title: "Strategy Analysis Intern (Partner Growth)",
           company: "TAL Education Group",
           date: "2025.09 — 2025.12",
           description: "Managed performance evaluation for 500+ teachers and designed incentive strategies based on multi-period SABC data. Conducted SWOT diagnosis across 50 campuses to optimize resource allocation. Executed user repurchase and retention strategies, achieving a 35% increase in renewal rates and 1,200+ new enrollments in pilot core campuses.",
@@ -269,7 +269,7 @@ const content = {
           active: false,
         },
         {
-          title: "策略运营实习生 (合伙人增长)",
+          title: "策略分析实习生 (合伙人增长)",
           company: "学而思 (好未来)",
           date: "2025.09 — 2025.12",
           description: "管理500+教师的绩效评估，基于多期SABC数据设计激励策略。对50个校区进行SWOT诊断以优化资源配置。执行用户复购与留存策略，在试点核心校区实现续报率提升35%，新增报名1200+人。",
