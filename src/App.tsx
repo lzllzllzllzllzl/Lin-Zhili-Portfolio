@@ -24,7 +24,7 @@ const content = {
     hero: {
       greeting: "Hey, I'm",
       location: "Hong Kong / Beijing",
-      description: "AI & Big Data postgraduate at Hong Kong Polytechnic University. Specialized in data-driven and intelligent algorithm system design, user growth strategies, and LTV optimization with proven results in leading tech companies.",
+      description: "E-Commerce and Internet Computing postgraduate at The University of Hong Kong. Specialized in data-driven and intelligent algorithm system design, user growth strategies, and LTV optimization with proven results in leading tech companies.",
       tags: ["AI", "Big Data", "Growth Strategy", "Product Operations"],
       photoDesc: "Passionate about academia and travel. This photo captures a memorable moment from my visiting study in Southeast Asia."
     },
@@ -46,11 +46,18 @@ const content = {
       title: "Experience",
       items: [
         {
+          title: "Digital Transformation Consulting Intern",
+          company: "Deloitte",
+          date: "2026.06 — PRESENT",
+          description: "Assisted in enterprise digital transformation strategy formulation, analyzing business processes to identify optimization opportunities. Supported project delivery, data analysis, and solution design for clients.",
+          active: true,
+        },
+        {
           title: "Strategy Operations Intern (Keemart Overseas)",
           company: "Meituan",
-          date: "2026.04 — PRESENT",
+          date: "2026.04 — 2026.06",
           description: "Responsible for visual optimization and scenario-based operations for Keemart's overseas business. Led A/B testing and performance analysis for main product images and scene imagery, continuously iterating on assets based on data feedback to improve CTR and conversion perception. Assisted in defining visual standards for categories and collaborated with design and product teams to implement optimization solutions, supporting business growth goals through refined operations.",
-          active: true,
+          active: false,
         },
         {
           title: "Assistant Procurement (Bathroom KA Group)",
@@ -233,7 +240,7 @@ const content = {
     hero: {
       greeting: "你好，我是",
       location: "香港 / 北京",
-      description: "香港理工大学人工智能与大数据专业研究生。专注于数据驱动与智能算法系统设计、用户增长策略及LTV优化，在头部科技公司拥有丰富的落地经验与成果。",
+      description: "香港大学电子商务与互联网计算专业研究生。专注于数据驱动与智能算法系统设计、用户增长策略及LTV优化，在头部科技公司拥有丰富的落地经验与成果。",
       tags: ["数据驱动", "战略思维", "终身学习", "跨界创新"],
       photoDesc: "热爱学术与旅行。这张照片记录了我在东南亚访学时的难忘瞬间。"
     },
@@ -255,11 +262,18 @@ const content = {
       title: "工作经历",
       items: [
         {
+          title: "数字化转型咨询实习生",
+          company: "德勤",
+          date: "2026.06 — 至今",
+          description: "梳理企业业务流程并协助制定企业数字化转型战略规划方案。承担客户项目交付工作，深度参与经营数据分析与业务方案设计，推动企业数字化与智能化落地方案的交付执行。",
+          active: true,
+        },
+        {
           title: "策略运营实习生 (海外Keemart)",
           company: "美团",
-          date: "2026.04 — 至今",
+          date: "2026.04 — 2026.06",
           description: "负责海外 Keemart 业务的商品视觉优化与场景化运营。主导商品主图、场景图的 A/B 测试与效果分析，通过数据反馈持续迭代素材，提升点击率与转化感知。协助制定品类视觉规范，并协同设计、商品部门推动优化方案落地，以精细化运营支持业务增长目标。",
-          active: true,
+          active: false,
         },
         {
           title: "采销助理 (卫浴KA组)",
