@@ -799,7 +799,7 @@ function Footer({ lang }: { lang: 'en' | 'zh' }) {
               <Mail className="w-6 h-6" />
               {lang === 'en' ? 'Email Me' : '发送邮件'}
             </a>
-            <a href="https://drive.google.com/file/d/18CrPh93PWLP5aWETZCdux49IJYH4c1ke/view?usp=drive_link" target="_blank" rel="noreferrer" className="bg-slate-800 text-white px-12 py-5 rounded-full text-xl font-bold hover:scale-105 transition-transform flex items-center gap-2">
+            <a href="https://drive.google.com/file/d/18MCoLLHsTagGGGNlexv7H0fY9oMLipM0/view?usp=drive_link" target="_blank" rel="noreferrer" className="bg-slate-800 text-white px-12 py-5 rounded-full text-xl font-bold hover:scale-105 transition-transform flex items-center gap-2">
               <FileText className="w-6 h-6" />
               {lang === 'en' ? 'View Resume' : '查看简历'}
             </a>
