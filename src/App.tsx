@@ -226,6 +226,18 @@ const content = {
           description: "A feature-rich countdown timer web app with cool animations, multiple timers, and preset scenarios.",
           url: "",
           github: "https://github.com/lzllzllzllzllzl/countdown-timer"
+        },
+        {
+          title: "Job Application Assistant",
+          description: "An AI-powered tool to help optimize and manage your job applications.",
+          url: "",
+          github: "https://github.com/lzllzllzllzllzl/job-application-assistant"
+        },
+        {
+          title: "Xiaohongshu Scraper",
+          description: "A Python-based data scraping tool for Xiaohongshu (Little Red Book) to extract posts and insights.",
+          url: "",
+          github: "https://github.com/lzllzllzllzllzl/XIAOHONGSHU_SCRAPER"
         }
       ]
     },
@@ -453,6 +465,18 @@ const content = {
           description: "一个功能丰富的倒计时应用，支持多个倒计时器和预设场景，带炫酷动画效果。",
           url: "",
           github: "https://github.com/lzllzllzllzllzl/countdown-timer"
+        },
+        {
+          title: "求职申请助手",
+          description: "一个AI驱动的自动化工具，帮助您优化、追踪和管理求职申请流程。",
+          url: "",
+          github: "https://github.com/lzllzllzllzllzl/job-application-assistant"
+        },
+        {
+          title: "小红书数据爬虫",
+          description: "基于Python的自动化数据采集工具，用于抓取小红书帖子、评论及相关数据。",
+          url: "",
+          github: "https://github.com/lzllzllzllzllzl/XIAOHONGSHU_SCRAPER"
         }
       ]
     },
