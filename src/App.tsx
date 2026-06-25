@@ -151,27 +151,26 @@ const content = {
           ],
           reverse: true,
           iframeUrl: "https://parking-lot-pi.vercel.app/"
-        },
-        {
-          title: "AeroVision: Flight Predictor",
-          subtitle: "DATA ANALYTICS & LLM DECISION",
-          image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=800",
-          content: (
-            <>
-              <p><strong>Overview:</strong> A comprehensive dashboard for flight ticket analysis and prediction.</p>
-              <p><strong>Technology:</strong> Combines data analytics with Large Language Models (LLMs) to provide actionable, data-driven decisions on the optimal time to purchase tickets based on historical trends.</p>
-            </>
-          ),
-          links: [
-            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/AeroVision" },
-            { text: "Live Demo", icon: <Zap className="w-4 h-4" />, url: "https://aero-vision-gamma.vercel.app/", outline: true }
-          ],
-          reverse: false,
-          iframeUrl: "https://aero-vision-gamma.vercel.app/"
         }
       ],
       n8nTitle: "AI Toolflows",
       n8nWorkflows: [
+        {
+          title: "Deloitte Automated Diagram Generator",
+          subtitle: "WORKFLOW AUTOMATION & INTERNAL EFFICIENCY",
+          image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800",
+          content: (
+            <>
+              <p><strong>Overview:</strong> An automated diagram generation tool designed to streamline internal workflows and boost operational efficiency.</p>
+              <p><strong>Impact:</strong> By converting structured text or data into visual diagrams instantly, this tool significantly reduces manual drawing time, enhances cross-departmental collaboration, and accelerates project delivery.</p>
+            </>
+          ),
+          links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/Deloitte-diagram-generator" },
+            { text: "Live Demo", icon: <Zap className="w-4 h-4" />, url: "https://deloitte-diagram-generator.vercel.app/", outline: true }
+          ],
+          iframeUrl: "https://deloitte-diagram-generator.vercel.app/"
+        },
         {
           title: "AI News Daily Collection + Feishu Push — n8n Automation Workflow",
           subtitle: "AUTOMATION & WORKFLOW",
@@ -192,6 +191,12 @@ const content = {
       ],
       interactiveTitle: "Interactive AI Experiments",
       interactive: [
+        {
+          title: "AeroVision: Flight Predictor",
+          description: "A comprehensive dashboard for flight ticket analysis and prediction using LLM decisions.",
+          url: "https://aero-vision-gamma.vercel.app/",
+          github: "https://github.com/lzllzllzllzllzl/AeroVision"
+        },
         {
           title: "AI Pictionary",
           description: "An interactive web app where users draw and Gemini 2.5 guesses the sketch in real-time.",
@@ -215,6 +220,12 @@ const content = {
           description: "A human-vs-computer interactive game featuring riddles to test cognitive skills.",
           url: "https://brain-teaser-lovat.vercel.app/",
           github: "https://github.com/lzllzllzllzllzl/brain-teaser"
+        },
+        {
+          title: "Countdown Timer",
+          description: "A feature-rich countdown timer web app with cool animations, multiple timers, and preset scenarios.",
+          url: "",
+          github: "https://github.com/lzllzllzllzllzl/countdown-timer"
         }
       ]
     },
@@ -367,27 +378,26 @@ const content = {
           ],
           reverse: true,
           iframeUrl: "https://parking-lot-pi.vercel.app/"
-        },
-        {
-          title: "AeroVision: 机票预测看板",
-          subtitle: "数据分析与大模型决策",
-          image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=800",
-          content: (
-            <>
-              <p><strong>项目概述：</strong> 一个用于机票分析和预测的综合数据看板。</p>
-              <p><strong>技术方案：</strong> 结合数据分析与大语言模型（LLM），基于历史趋势为用户提供何时购买机票的最佳决策建议。</p>
-            </>
-          ),
-          links: [
-            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/AeroVision" },
-            { text: "在线演示", icon: <Zap className="w-4 h-4" />, url: "https://aero-vision-gamma.vercel.app/", outline: true }
-          ],
-          reverse: false,
-          iframeUrl: "https://aero-vision-gamma.vercel.app/"
         }
       ],
       n8nTitle: "AI工具流",
       n8nWorkflows: [
+        {
+          title: "德勤流程图自动生成工具",
+          subtitle: "流程自动化与内部提效",
+          image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800",
+          content: (
+            <>
+              <p><strong>项目概述：</strong> 专为内部提效设计的自动化流程图生成工具，旨在优化传统繁琐的手动绘制工作流。</p>
+              <p><strong>提升效果：</strong> 通过将结构化文本/数据一键转化为可视化图表，大幅减少人工绘制成本，显著提升跨部门协作效率与高质量方案交付能力。</p>
+            </>
+          ),
+          links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/Deloitte-diagram-generator" },
+            { text: "在线演示", icon: <Zap className="w-4 h-4" />, url: "https://deloitte-diagram-generator.vercel.app/", outline: true }
+          ],
+          iframeUrl: "https://deloitte-diagram-generator.vercel.app/"
+        },
         {
           title: "AI新闻每日采集 + 飞书推送 — n8n 自动化工作流",
           subtitle: "自动化与工作流",
@@ -408,6 +418,12 @@ const content = {
       ],
       interactiveTitle: "互动AI实验",
       interactive: [
+        {
+          title: "AeroVision: 机票预测看板",
+          description: "结合数据分析与大语言模型（LLM）的综合数据看板，基于历史趋势为用户提供购票最佳决策建议。",
+          url: "https://aero-vision-gamma.vercel.app/",
+          github: "https://github.com/lzllzllzllzllzl/AeroVision"
+        },
         {
           title: "AI你画我猜",
           description: "一个有趣的互动网页，用户画图，Gemini 2.5模型实时猜测你画的内容。",
@@ -431,6 +447,12 @@ const content = {
           description: "一个人机互动的脑筋急转弯游戏，考验你的脑力和反应速度。",
           url: "https://brain-teaser-lovat.vercel.app/",
           github: "https://github.com/lzllzllzllzllzl/brain-teaser"
+        },
+        {
+          title: "多功能倒计时器",
+          description: "一个功能丰富的倒计时应用，支持多个倒计时器和预设场景，带炫酷动画效果。",
+          url: "",
+          github: "https://github.com/lzllzllzllzllzl/countdown-timer"
         }
       ]
     },
@@ -690,8 +712,18 @@ function NotableWork({ lang }: { lang: 'en' | 'zh' }) {
                 viewport={{ once: true }}
                 className="grid md:grid-cols-2 gap-12 items-center"
               >
-                <div className="rounded-xl overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] relative">
-                  <img src={work.image} alt={work.title} className="w-full h-full object-cover object-center" />
+                <div className={`rounded-xl overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] relative`}>
+                  {work.iframeUrl ? (
+                    <iframe 
+                      src={work.iframeUrl} 
+                      title={work.title}
+                      className="w-full h-full border-0 absolute inset-0"
+                      loading="lazy"
+                      sandbox="allow-scripts allow-same-origin"
+                    />
+                  ) : (
+                    <img src={work.image} alt={work.title} className="w-full h-full object-cover object-center" />
+                  )}
                 </div>
                 <div className="space-y-6">
                   <div>
@@ -708,7 +740,11 @@ function NotableWork({ lang }: { lang: 'en' | 'zh' }) {
                         href={link.url}
                         target="_blank"
                         rel="noreferrer"
-                        className={`flex items-center gap-2 px-6 py-2 rounded-full font-bold text-sm transition-all bg-slate-900 text-white hover:opacity-80`}
+                        className={`flex items-center gap-2 px-6 py-2 rounded-full font-bold text-sm transition-all ${
+                          link.outline 
+                            ? 'border-2 border-slate-900 text-slate-900 hover:bg-slate-50' 
+                            : 'bg-slate-900 text-white hover:opacity-80'
+                        }`}
                       >
                         {link.icon}
                         {link.text}
@@ -740,9 +776,11 @@ function NotableWork({ lang }: { lang: 'en' | 'zh' }) {
                   <a href={work.github} target="_blank" rel="noreferrer" className="text-slate-400 hover:text-slate-900 transition-colors">
                     <Github className="w-5 h-5" />
                   </a>
-                  <a href={work.url} target="_blank" rel="noreferrer" className="text-sm font-semibold text-primary hover:underline flex items-center gap-1">
-                    {lang === 'en' ? 'Try it out' : '立即体验'} <ExternalLink className="w-4 h-4" />
-                  </a>
+                  {work.url && (
+                    <a href={work.url} target="_blank" rel="noreferrer" className="text-sm font-semibold text-primary hover:underline flex items-center gap-1">
+                      {lang === 'en' ? 'Try it out' : '立即体验'} <ExternalLink className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </motion.div>
             ))}
