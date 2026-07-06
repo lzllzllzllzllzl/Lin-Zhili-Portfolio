@@ -123,6 +123,7 @@ const content = {
             </>
           ),
           links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/ops-refiner" },
             { text: "Live Demo", icon: <Zap className="w-4 h-4" />, url: "https://ops-refiner.vercel.app/", outline: true }
           ],
           reverse: false,
@@ -362,6 +363,7 @@ const content = {
             </>
           ),
           links: [
+            { text: "GitHub", icon: <Github className="w-4 h-4" />, url: "https://github.com/lzllzllzllzllzl/ops-refiner" },
             { text: "在线演示", icon: <Zap className="w-4 h-4" />, url: "https://ops-refiner.vercel.app/", outline: true }
           ],
           reverse: false,
